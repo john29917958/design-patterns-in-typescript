@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "tsc-node": "^0.0.3",
+    "typescript": "^5.2.2"
+  }
+}
