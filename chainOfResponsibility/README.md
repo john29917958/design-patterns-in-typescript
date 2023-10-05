@@ -1,16 +1,14 @@
 Chain of Responsibility
 ===
+Catelog: Behavioral design pattern
 
-Scenario: When a request can be conditionally accepted and handled by a series of handlers.
+Scenario: A request is conditionally accepted, processed by a sequence of handlers in a specific order. There may be potential extension of the handlers in the future.
 
-Pattern: A handler knows the next handler with the same interface.
+Remarks:
+- The handler can decide whether to accept the request or not.
+- The handler can decide whether to pass the request to next handler or not.
+- Unlike state machine design pattern, there is only one request flow in the chain of responsibility design pattern.
 
-Remark:
-- Can be stoppable and non-stoppable
-- Unlike state machine, there’s only a single request flow in the chain of responsibility
-
-Examples:
-- Game stages
-- The document signing process in a company
+Examples: The document signing process in a company. Telecom company customer service process.
 
 ![UML](UML.jpg)
