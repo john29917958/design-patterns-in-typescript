@@ -1,9 +1,9 @@
 Adapter
 ===
-Scenario: When we want to include / extend a system or library with a different interface.
+Catalog: Structural design pattern
 
-Pattern: Client accesses the newcomer through an object with a consistent interface.
+Scenario: The interfaces of objects are incompatible. The type of objects may be extended in the future.
 
-Examples: Makes the enemy a player’s soldier.
+Examples: Use data table to XML and data table to JSON conversion libraries whose interfaces are incompatible.
 
 ![UML](UML.jpg)
