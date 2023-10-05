@@ -1,0 +1,21 @@
+import { Circle } from "./shapes/circle";
+import { Rectangle } from "./shapes/rectangle";
+import { Shape } from "./shapes/shape";
+
+const circle: Circle = new Circle();
+circle.x = 10;
+circle.y = 20;
+circle.color = "red";
+circle.radius = 5;
+let clonedShape: Shape = circle.clone();
+clonedShape.x = 20;
+clonedShape.y = 30;
+const rectangle: Rectangle = new Rectangle();
+rectangle.x = 10;
+rectangle.y = 20;
+rectangle.color = "red";
+rectangle.width = 100;
+rectangle.height = 50;
+clonedShape = rectangle.clone();
+clonedShape.x = 20;
+clonedShape.y = 30;
