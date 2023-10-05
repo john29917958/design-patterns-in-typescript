@@ -2,7 +2,7 @@ Adapter
 ===
 Catalog: Structural design pattern
 
-Scenario: The interfaces of objects are incompatible. The type of objects may be extended in the future.
+Scenario: The interfaces of objects are incompatible. There may be potential extension of the object types in the future.
 
 Examples: Use data table to XML and data table to JSON conversion libraries whose interfaces are incompatible.
 
