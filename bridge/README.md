@@ -1,11 +1,13 @@
 Bridge
 ===
-Scenario: When there exists two groups of objects. Objects in group A use objects in group B. The usage lines are very complicated.
+Catalog: Structural design pattern
 
-Pattern: There are two inheritance trees. One for group A, and another for group B. Objects in group A contains a reference to objects in group B.
+Scenario: A set of closely related classes grow exponentially or a complex class grows dramatically as the abstractions or implementations which can be developed independently are extended. With the Bridge design pattern, we can split the abstractions and implementations and let them be selected at run-time.
 
-Example:
-- Magic spells that can be learnt or used by different magicians
-- Equipable weapons for each character.
+Explaination of abstraction and implementation:
+- Abstraction: The high-level control layer without doing any real work, it delegates the work to the implementation layer.
+- Implementation: The layer with real work. It's also called the *platform*.
+
+Example: The GUI and the operating system APIs of an app. The GUI calls the operation system APIs in response to user interactions.
 
 ![UML](UML.jpg)
