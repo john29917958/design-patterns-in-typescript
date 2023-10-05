@@ -1,8 +1,8 @@
 Abstract Factory
 ===
-Scenario: To create various families of related objects.
+Catalog: Creational design pattern
 
-Potential change: Extension of the families.
+Scenario: To create various families of related objects. The families may be extended in the future.
 
 Examples: UI components in different operation systems.
 
