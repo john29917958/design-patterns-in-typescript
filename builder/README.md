@@ -1,9 +1,9 @@
 Builder
 ===
-Scenario: When the construction process of an object is very complicated.
+Catalog: Creational design pattern
 
-Pattern: An abstract builder defines all build operations, and the concrete builders implement these operations in detail. Last, a director class invokes these operations in order.
+Scenario: The constructions of objects are very complicated.
 
-Examples: Creates different types of game characters, weapons, equipment.
+Examples: Construct various types of house objects. Since constructing a house object includes many parts like windows, doors, walls, roofs, floor, etc, this may result in a huge complex construtor, or a constructor with many arguments, in which most of them may be set to `null` when the constructor is called.
 
 ![UML](UML.jpg)
