@@ -1,12 +1,10 @@
 Composite
 ===
 
-Scenario: When there exists a tree node (root - leaf liked) structure.
+Scenario: Tree structures to implement.
 
-Pattern: Both root and leaf inherits the same interface, that is, share the same operations, while only the root nodes contain an array as child nodes.
+Remark: To realize customized operations on different types of child nodes, we can use Visitor design pattern.
 
-Remark: To realize customized operations to different types of child nodes, we can adopt “Visitor Design Pattern”.
-
-Examples: File explorer
+Examples: File explorer with folders and files.
 
 ![UML](UML.jpg)
