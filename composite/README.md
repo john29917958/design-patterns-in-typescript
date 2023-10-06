@@ -1,5 +1,6 @@
 Composite
 ===
+Catalog: Structural design pattern
 
 Scenario: Tree structures to implement.
 

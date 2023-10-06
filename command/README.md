@@ -1,5 +1,6 @@
 Command
 ===
+Catalog: Behavioral design pattern
 
 Scenario: To store, delay, queue requests. To allow requests to be undone, ordered, or canceled.
 
