@@ -1,7 +1,11 @@
 Iterator
 ===
-Scenario: To traverse through a list of objects easily.
+Catalog: Behavioral design pattern
 
-This pattern is usually already implemented by all popular languages.
+Scenario: To traverse through elements of a collection easily.
 
-Example: The `foreach` language feature supported by C# generic list.
+This pattern is generally already implemented in all popular languages.
+
+Example: The `for`..`of` loop supported by JavaScript.
+
+![UML](UML.jpg)
