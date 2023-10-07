@@ -1,9 +1,9 @@
-Mediator
+Memento
 ===
-Scenario: When we need to import / export (serialize / deserialize) data from object instance.
+Catelog: Behavioral design pattern
 
-Pattern: Object instance creates / loads memento object. Outside word uses the memento object only.
+Scenario: To save and restore the states of an object.
 
-Examples: Save / load data or crash / recovery abilities of modern editors
+Examples: Save/load data or crash/recovery features of modern editors
 
 ![UML](UML.jpg)
