@@ -1,12 +1,11 @@
 Flyweight
 ===
-Scenario: When many small groups of attributes are immutable and can be shared through objects.
+Scenario: There are objects or properties that use a lot of memory will not be changed after they are created (immutable) and can be used by multiple objects. 
 
-Pattern: There exists a shared version and an unshared version of attributes classes that inherits the same interface. A factory that stores all shared versions of attributes, like an object pool. Client gets a shared version of attributes through the factory. If necessary, clients replace the shared version of attributes with the unshared version, so data can be modified.
+Intrinsic and extrinsic states:
+- Intrinsic state: The immutable data of the object.
+- Extrinsic state: The data from the outside.
 
-Examples:
-- A character includes level, health, mana, move speed, weapon, AI….
-- Bullet and magic spell object pool
-
+Examples: Render high texture models on the UI.
 
 ![UML](UML.jpg)
