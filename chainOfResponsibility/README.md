@@ -2,7 +2,7 @@ Chain of Responsibility
 ===
 Catelog: Behavioral design pattern
 
-Scenario: A request is conditionally accepted, processed by a sequence of handlers in a specific order. There may be potential extension of the handlers in the future.
+Scenarios: A request is conditionally accepted, processed by a sequence of handlers in a specific order. There may be potential extension of the handlers in the future.
 
 Remarks:
 - The handler can decide whether to accept the request or not.

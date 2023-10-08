@@ -2,7 +2,7 @@ Proxy
 ===
 Catalog: Structural design pattern
 
-Scenario: To provide placeholder for another object, to conditionally add behavior before or after the execution of another object.
+Scenarios: To provide placeholder for another object, to conditionally add behavior before or after the execution of another object.
 
 Examples:
 - To provide cache feature.

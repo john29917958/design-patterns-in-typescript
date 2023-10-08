@@ -2,7 +2,7 @@ Observer
 ===
 Catalog: Behavioral design pattern
 
-Scenario: Objects have to be notified (to perform operations) once a certain kind of event occurs in other objects. 
+Scenarios: Objects have to be notified (to perform operations) once a certain kind of event occurs in other objects. 
 
 Examples: E-mail subscription.
 
