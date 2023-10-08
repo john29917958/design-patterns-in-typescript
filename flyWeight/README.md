@@ -1,5 +1,7 @@
 Flyweight
 ===
+Catalog: Structural design pattern
+
 Scenario: There are objects or properties that use a lot of memory will not be changed after they are created (immutable) and can be used by multiple objects. 
 
 Intrinsic and extrinsic states:
