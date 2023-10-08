@@ -1,11 +1,11 @@
 Proxy
 ===
-Scenario: When we want to conditionally do something or add functionality to an existing object before its execution.
+Catalog: Structural design pattern
 
-Pattern: Proxy object and real object inherits the same interface. The client uses the proxy object through the interface.
+Scenario: To provide placeholder for another object, to conditionally add behavior before or after the execution of another object.
 
 Examples:
-- Conditionally enable caching of asset loader for A/B testing
-- Show preview 3D model while the beautiful model is loading, and switch to real model after completely loaded.
+- To provide cache feature.
+- To show preview low-texture 3D model while the high-texture model is still being loaded, and switch to the high-texture model once it has been fully loaded.
 
 ![UML](UML.jpg)
